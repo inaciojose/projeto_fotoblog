@@ -29,10 +29,6 @@ body {
   background: var(--color-base-white);
 }
 
-.app > * {
-  border: 1px solid royalblue;
-}
-
 .app {
   display: grid;
   height: 100vh;
@@ -106,6 +102,24 @@ ul li.active {
   object-fit: cover;
 
   border-radius: 50%;
+}
+
+/*Galeria*/
+main h1 {
+  padding-top: 1.6rem;
+  font-size: 2.4rem;
+}
+
+.gallery {
+  margin-top: 3.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.2rem;
+}
+
+.item img {
+  width: 100%;
 }
 
 footer {
